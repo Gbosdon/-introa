@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Guess the number game!</title>
+  </head>
+  <body>
+    <script>
+        var userAnswer = prompt ("Guess a number from 1 to 5");
+        var computerChoice = Math.floor(Math.random()*5+1);
+        console.log(userAnswer)
+        console.log(computerChoice)
+        if (userAnswer==computerChoice){
+          console.log("You win!");
+        }
+        else {
+          console.log("You lose!");
+        }
+      </script>
+  </body>
+</html>
