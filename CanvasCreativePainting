@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas Creative Painting</title>
+  </head>
+  <body>
+    <canvas id = "myCanvas"></canvas>
+    <script>
+      var x = 0
+      var y = 0
+      var maxX = prompt("What is the width and height of the painting of the painting?(They have to be equal, so just put one value)")
+      var maxY = maxX
+      
+      
+      
+      
+      
+      
+      var canvas = document.getElementById("myCanvas");
+      canvas.width = maxY;
+      canvas.height = maxY ;
+      canvas.style.border = "1px solid black";
+      var ctx = canvas.getContext("2d")
+      
+      ctx.beginPath();
+      ctx.fillStyle = "black"
+      ctx.fillRect(0/400*maxX,199/400*maxY, 400/400*maxX,2/400*maxY);
+      
+      ctx.beginPath();
+      ctx.fillStyle = "black"
+      ctx.fillRect(199/400*maxX,0/400*maxY,2/400*maxX,400/400*maxY);
+      
+      ctx.beginPath();
+      ctx.arc(100/400*maxX,100/400*maxY,100/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "blue"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(100/400*maxX,100/400*maxY,75/400*maxX,0,2*Math.PI);
+      ctx.fillStyle = "green"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(100/400*maxX,100/400*maxY,50/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "yellow"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(100/400*maxX,100/400*maxY,25/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "red"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(300/400*maxX,100/400*maxY,100/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "yellow"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(300/400*maxX,100/400*maxY,75/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "red"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(300/400*maxX,100/400*maxY,50/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "blue"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(300/400*maxX,100/400*maxY,25/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "green"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(100/400*maxX,300/400*maxY,100/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "red"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(100/400*maxX,300/400*maxY,75/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "blue"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(100/400*maxX,300/400*maxY,50/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "green"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(100/400*maxX,300/400*maxY,25/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "yellow"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(300/400*maxX,300/400*maxY,100/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "blue"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(300/400*maxX,300/400*maxY,75/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "green"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(300/400*maxX,300/400*maxY,50/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "yellow"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(300/400*maxX,300/400*maxY,25/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "red"
+      ctx.fill();
+      ctx.stroke();
+    
+      ctx.beginPath();
+      ctx.arc(200/400*maxX,200/400*maxY,42/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "green"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(200/400*maxX,200/400*maxY,32/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "yellow"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(200/400*maxX,200/400*maxY,22/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "red"
+      ctx.fill();
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.arc(200/400*maxX,200/400*maxY,12/400*maxX,0,2*Math.PI/400*maxY);
+      ctx.fillStyle = "blue"
+      ctx.fill();
+      ctx.stroke();
+      
+    </script>
+    
+    
+    
+    
+  </body>
+</html>
